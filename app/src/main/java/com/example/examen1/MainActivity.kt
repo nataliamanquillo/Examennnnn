@@ -30,7 +30,7 @@ class MainActivity : AppCompatActivity(), OnClickListener {
 
     // funcion
     fun masaCorporal(peso: String, estatura: String): String{
-        var indice = (peso.toFloat() / (estatura.toFloat() * 2))
+        var indice = (peso.toFloat() / (estatura.toFloat() * (estatura.toFloat()))
         return "Su índice de masa corporal es $indice"
     }
 
